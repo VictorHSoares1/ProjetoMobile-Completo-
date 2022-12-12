@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.edu.ifsp.arq.ads.dmos5.easycooking.TimerActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="TIMER"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/timerText"
+        android:textSize="60sp"
+        android:text="00 : 00 : 00"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/startStopButton"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+
+            android:layout_marginLeft="25dp"
+            android:onClick="startStopTapped"
+            android:text="START"
+            android:textColor="@color/green"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:onClick="resetTapped"
+            android:text="RESET"
+            android:layout_marginLeft="60sp"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:id="@+id/nav_home"
+        android:title="@string/menu_home"
+        android:icon="@drawable/ic_menu_home"/>
+    <item android:id="@+id/nav_account"
+        android:title="@string/menu_account"
+        android:icon="@drawable/ic_menu_account" />
+    <item android:id="@+id/nav_my_recipes"
+        android:title="@string/menu_my_recipes"
+        android:icon="@drawable/ic_menu_new_activity" />
+    <item android:id="@+id/nav_menu_timer"
+        android:title="@string/menu_timer"
+        android:icon="@drawable/ic_menu_timer_foreground" />
+    <item android:id="@+id/nav_settings"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/ic_menu_settings" />
+    <item android:id="@+id/nav_logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_menu_logout" />
+</menu>

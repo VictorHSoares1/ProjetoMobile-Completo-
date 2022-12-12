@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/activity_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+
+        android:text="TYPE"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/activity_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:ellipsize="marquee"
+        android:singleLine="true"
+
+        android:text="00/00/0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activity_name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/activity_type"
+        android:layout_alignParentLeft="true"
+
+        android:gravity="center_vertical"
+        android:text="Nome: "
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_distance"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/activity_type"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/activity_name"
+
+        android:gravity="center_vertical"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activity_details_lbl"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/activity_name"
+
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+
+        android:text="Detalhes: "
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/activity_details"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/activity_details_lbl"
+        android:layout_alignParentRight="true"
+        android:layout_toStartOf="@id/activity_details_lbl"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/activity_details">
+
+        <Button
+            android:id="@+id/btn_edt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="EDITAR"
+            android:backgroundTint="#5FC8F8"/>
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="EXCLUIR"
+            android:backgroundTint="#FF8596"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

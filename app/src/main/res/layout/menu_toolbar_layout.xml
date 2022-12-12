@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/toolbar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_title"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="Título"
+        android:textAppearance=
+            "@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"/>
+
+</androidx.appcompat.widget.Toolbar>

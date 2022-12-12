@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893977889",
+    "project_id": "easy-3112e",
+    "storage_bucket": "easy-3112e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893977889:android:4cb6919cfb19d2588b6a60",
+        "android_client_info": {
+          "package_name": "br.edu.ifsp.arq.ads.dmos5.easycooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893977889-obgjfutlm5ffng960okkenr9s3gf24uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHZx0XoNJDsOBKYT9jn51UKkX_0QAW5aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893977889-obgjfutlm5ffng960okkenr9s3gf24uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

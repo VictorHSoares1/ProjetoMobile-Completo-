@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Easycooking</string>
+    <!-- Tela Principal -->
+    <string name="txt_principal_atividade">Tipo de Receitas mais usadas</string>
+    <string name="txt_ultimas_atividades">Últimas Receitas</string>
+    <!-- Tela Cadastro de Receitas -->
+    <string name="txt_layout_data">Data</string>
+    <string name="txt_layout_recipe_name">Nome da Receita</string>
+    <string name="txt_layout_details">Detalhes</string>
+    <string name="txt_title_new_activity">Nova Receita</string>
+    <!-- Menu -->
+    <string name="txt_enter">Entrar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Minha Conta</string>
+    <string name="menu_new_activity">Nova Atividade</string>
+    <string name="menu_logout">Sair</string>
+    <string name="toggle_open">Abrir</string>
+    <string name="toggle_close">Fechar</string>
+    <!-- Tela de Cadastro de Usuário -->
+    <string name="txt_layout_email">E-mail</string>
+    <string name="txt_layout_password">Senha</string>
+    <string name="btn_cadastrar">CADASTRAR</string>
+    <string name="txt_title_new_user">Novo Usuário</string>
+    <!-- Tela de Login de Usuário -->
+    <string name="btn_login_enter">Entrar</string>
+    <string name="txt_forgot_password">Esqueceu sua senha?</string>
+    <string name="txt_no_account">Não tem cadastro?</string>
+    <string name="txt_title_login">Login</string>
+    <!-- Tela de Perfil de Usuário -->
+    <string name="txt_layout_name">Nome</string>
+    <string name="txt_layout_surname">Sobrenome</string>
+    <string name="txt_layout_address">Logradouro</string>
+    <string name="txt_layout_number">Número</string>
+    <string name="txt_layout_complement">Complemento</string>
+    <string name="txt_layout_district">Bairro</string>
+    <string name="txt_layout_city">Cidade</string>
+    <string name="txt_layout_zipecode">CEP</string>
+    <string name="btn_profile_update">Atualizar</string>
+    <string name="txt_title_profile">Perfil</string>
+    <string name="msg_login">Usuário e/ou senha inválidos!</string>
+    <string name="msg_success_profile">Perfil do usuário atualizado com sucesso!</string>
+    <string name="settings_title">Configurações</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="txt_birthDate">Data de Nascimento</string>
+    <string name="txt_phone">Telefone</string>
+    <string name="msg_erro_password">A senha tem que possuir no mínimo 6 caracteres.</string>
+    <string name="txt_email">E-mail</string>
+    <string name="btn_ok_resetar_senha">Enviar</string>
+    <string name="btn_cancel_resetar_senha">Cancelar</string>
+    <string name="title_dialog_resetar_senha">Resetar Senha</string>
+    <string name="msg_resetar_email">Verifique seu e-mail para resetar a senha.</string>
+    <string name="txt_title_edit_recipe">Edição de Receita</string>
+    <string name="menu_my_recipes">Minhas Receitas</string>
+    <string name="btn_activity_register_save">SALVAR</string>
+    <string name="title_my_recipes">Minhas Receitas</string>
+    <string name="menu_timer">Timer</string>
+    <string name="title_timer">Timer</string>
+
+    <!-- array com os tipos de receitas -->
+    <string-array name="activity">
+        <item>Salgadas</item>
+        <item>Doces</item>
+        <item>Bebidas</item>
+    </string-array>
+
+    <array name="genders">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+    </array>
+
+</resources>
